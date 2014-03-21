@@ -47,9 +47,9 @@ public class OnlinePremium extends Activity{
 		// show loading dialog with ProgressDialog
 		dialog = new ProgressDialog(this);
 		dialog.setMessage("loading...");
-        dialog.setCancelable(false);
-        dialog.setInverseBackgroundForced(false);
-        dialog.show();
+        	dialog.setCancelable(false);
+        	dialog.setInverseBackgroundForced(false);
+        	dialog.show();
 
 		
 		String base64EncodedPublicKey = "MIHNMA0GCSqGSIb3DQEBAQUAA4G7ADCBtwKBrwDGhl8/QU3vPjgmTutAbItCBpdwwgFWSAFvzM/OOXVSMHaeH9fjRIxa3aLXVAfuoRJ3Q1ynbQL1Dc2hAvlTAgEeRFNmVkkjypzhZxK3O18wIYJiNleLd/pXZyWaoHeQB6s3eH3KB8uDn2TdZoYzmXxZkvMoDW2db3mT1NmPxJYm+xF7AN/p/Sr9YqEXpIpzsXbe6T30seUHmPDdM4r7h/r6hx/R/2hHvR/vnN0i6w8CAwEAAQ==";
@@ -93,8 +93,8 @@ public class OnlinePremium extends Activity{
 	        }
 	        dialog.hide();
 	        updateUi();
-            setWaitScreen(false);
-            Toast.makeText(getApplicationContext(), mIsPremium? R.string.premium : R.string.notpremium, Toast.LENGTH_SHORT).show();
+        	setWaitScreen(false);
+        	Toast.makeText(getApplicationContext(), mIsPremium? R.string.premium : R.string.notpremium, Toast.LENGTH_SHORT).show();
 	        Log.d(TAG, "Initial inventory query finished; enabling main UI.");
 	        
 	    }
@@ -192,13 +192,6 @@ public class OnlinePremium extends Activity{
 	    findViewById(R.id.screen_wait).setVisibility(set ? View.VISIBLE : View.GONE);
 	}
 	
-	void alertdialog(boolean b) {
-		ProgressDialog dialog = new ProgressDialog(this);
-		dialog.setMessage("loading");
-        dialog.setCancelable(false);
-        dialog.setInverseBackgroundForced(false);
-        dialog.show();
-	}
 	
 	void complain(String message) {
 	    Log.e(TAG, "**** testbilling Error: " + message);
@@ -214,14 +207,5 @@ public class OnlinePremium extends Activity{
 
 	}	
 		
-		
-		void savedata() {
-			SharedPreferences settings = getSharedPreferences("MUPREF", 0);
-			SharedPreferences.Editor editor = settings.edit();
-			editor.putBoolean("update", true);
-			editor.commit();
-			
-			Log.d(TAG, "changed!!");
-	}
 
 }
