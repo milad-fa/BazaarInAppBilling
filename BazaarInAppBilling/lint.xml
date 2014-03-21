@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription" severity="ignore" />
+    <issue id="HardcodedText" severity="ignore" />
+    <issue id="ObsoleteLayoutParam" severity="ignore" />
+    <issue id="ShowToast">
+        <ignore path="src\com\hamedjj\bazaarinappbilling\OnlinePremium.java" />
+    </issue>
+    <issue id="SpUsage" severity="ignore" />
+    <issue id="TypographyEllipsis" severity="ignore" />
+</lint>

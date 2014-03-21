@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BazaarInAppBilling</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="premium">تبریک! شما کاربر ویژه هستید</string>
+	<string name="notpremium">شما کاربر عادی هستید</string>
+	<string name="wait">در حال بررسی...</string>
+	<string name="clickpremium">شما کاربر ویژه هستید</string>
+</resources>
