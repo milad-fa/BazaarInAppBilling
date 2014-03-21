@@ -28,4 +28,8 @@
 لطفا در سمت راست بر روی wiki کلیک کنید یا بر روی لینک زیر کلیک کنید
 <br>
 <a href="https://github.com/hamedjj/BazaarInAppBilling/wiki">برای ورود کلیک کنید</a>
-</p></strong></br></div>
+</p></strong>
+<h2>نویسنده</h2>
+<p><strong>
+<img src="http://www.axgig.com/images/92193400440163114768.png" border="0" alt="hamedjj" align="middle" width="50" height="50" /> <a href="http://barnamenevis.org/member.php?290105-hamedjj">hamedjj</a>
+</p></strong>
