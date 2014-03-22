@@ -159,7 +159,7 @@ public class OnlinePremium extends Activity{
 	                mIsPremium = true;
 	                updateUi();
 	                setWaitScreen(false);
-	                savedata();
+	                
 	        }
 	    }
 	};
