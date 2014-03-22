@@ -170,11 +170,13 @@ public void updateUi() {
 ```
 
 <br><div lang="fa" dir="rtl">
+<h2>در پایان</h2>
 <p><strong>
 شما میتوانید این پروژه را fork کنید و در کامل کردن این پروژه ما را یاری کنید
 <br>
 همچنین با ستاره (در بالای صفحه) دلگرمی ما برای پروژه های آموزشی بعدی باشید.<br>
 امیدوارم با این آموزش قطره ای به دانش اندرویدی شما افزوده باشم
+</p></strong>
 <h2>نویسنده</h2>
 <p><strong>
 <img src="http://www.axgig.com/images/92193400440163114768.png" border="0" alt="hamedjj" align="middle" width="50" height="50" /> <a href="http://barnamenevis.org/member.php?290105-hamedjj">hamedjj</a>
